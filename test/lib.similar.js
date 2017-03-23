@@ -1,6 +1,6 @@
 'use strict';
 
-const gplay = require('../index');
+const gplay = require('../lib/index');
 const assertValidApp = require('./common').assertValidApp;
 
 describe('Similar method', () => {

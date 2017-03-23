@@ -3,7 +3,7 @@
 const assert = require('chai').assert;
 const validator = require('validator');
 const assertValidUrl = require('./common').assertValidUrl;
-const gplay = require('../index');
+const gplay = require('../lib/index');
 
 describe('App method', () => {
   it('should fetch valid application data', () => {

@@ -1,6 +1,6 @@
 'use strict';
 
-const gplay = require('../index');
+const gplay = require('../lib/index');
 const assertValidApp = require('./common').assertValidApp;
 const assert = require('chai').assert;
 const R = require('ramda');

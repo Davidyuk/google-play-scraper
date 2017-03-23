@@ -4,7 +4,7 @@ const assert = require('chai').assert;
 const assertValidApp = require('./common').assertValidApp;
 const validator = require('validator');
 const assertValidUrl = require('./common').assertValidUrl;
-const gplay = require('../index');
+const gplay = require('../lib/index');
 
 describe('List method', () => {
   it('should fetch a valid application list for the given category and collection', () => {

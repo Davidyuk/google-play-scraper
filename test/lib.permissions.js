@@ -1,6 +1,6 @@
 'use strict';
 
-const gplay = require('../index');
+const gplay = require('../lib/index');
 const assert = require('chai').assert;
 
 describe('Permissions method', () => {
